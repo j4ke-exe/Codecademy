@@ -19,7 +19,7 @@ print("Average Haircut Price: " + "$" + str(average_price))
 
 # Discount styles by $5
 new_prices = [price - 5 for price in prices]
-print("Discount Prices: " + str(list(new_prices)))
+print("Discount Prices: " + str(new_prices)[1:-1])
 
 # Calculate Revenue
 total_revenue = 0
@@ -33,4 +33,4 @@ print("Average Daily Revenue: " + "$" + str(average_daily_revenue))
 
 # Advertise haircuts that are under $30
 cuts_under_30 = [hairstyles[i] for i in range(len(hairstyles)) if new_prices[i] < 30]
-print("Cuts under $30: " + str(cuts_under_30))
+print("Cuts under $30: " + str(cuts_under_30)[1:-1])
