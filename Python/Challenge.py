@@ -1,5 +1,5 @@
-# Define function with conditional statement
-# that returns True or False based on the argument
+# Define functions with conditional statements that returns True or False based on the argument
+
 def large_power(base, exponent):
     if base ** exponent > 5000:
         return True
