@@ -8,6 +8,7 @@ def append_size(lst):
     lst.append(len(lst))
     return lst
 print(append_size([23, 42, 108]))
+
 #------------------------------------
 
 # Question:
@@ -45,4 +46,21 @@ print(larger_list([4, 10, 2, 5], [-10, 2, 5, 10]))
 
 # Solution:
 def more_than_n(lst, item, n):
-    if 
+    if lst.count(item) > n:
+        return True
+    else:
+        return False
+print(more_than_n([2, 4, 6, 2, 3, 2, 1, 2], 2, 3))
+
+#------------------------------------
+
+# Question:
+# Write a function named combine_sort that has two parameters named lst1 and lst2.
+# The function should combine these two lists into one new list and sort the result. Return the new sorted list.
+
+# Solution:
+def combine_sort(lst1, lst2):
+    unsorted = lst1 + lst2
+    sortedList = sorted(unsorted)
+    return sortedList
+print(combine_sort([4, 10, 2, 5], [-10, 2, 5, 10]))
