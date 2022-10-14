@@ -40,6 +40,8 @@ def more_frequent_item(lst, item1, item2):
         return item2
 print(more_frequent_item([2, 3, 3, 2, 3, 2, 3, 2, 3], 2, 3))
 
+# Output = 3
+
 #-------------------------------------
 
 # Question:
@@ -64,6 +66,8 @@ def double_index(lst, index):
     return new_lst
 print(double_index([3, 8, -10, 12], 2))
 
+# Output = [3, 8, -20, 12]
+
 #-------------------------------------
 
 # Question:
@@ -79,3 +83,5 @@ def middle_element(lst):
   else:
     return lst[int(len(lst)/2)]
 print(middle_element([5, 2, -10, -4, 4, 5]))
+
+# Output = -7.0
