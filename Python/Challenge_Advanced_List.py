@@ -58,7 +58,7 @@ def double_index(lst, index):
         # Gets the original list up to index
         new_lst = lst[0:index]
     # Adds double the value at index to the new list 
-    new_lst.append(lst[index]*2)
+    new_lst.append(lst[index] * 2)
     #  Adds the rest of the original list
     new_lst = new_lst + lst[index + 1:]
     return new_lst
