@@ -20,7 +20,7 @@ print(every_three_nums(91))
 
 # Solution:
 def remove_middle(lst, start, end):
-    return lst[:start] + lst[end + 1:]
+    return lst[:start] + lst[end+1:]
 print(remove_middle([4, 8, 15, 16, 23, 42], 1, 3))
 
 # Output = [4, 23, 42]
@@ -58,8 +58,24 @@ def double_index(lst, index):
         # Gets the original list up to index
         new_lst = lst[0:index]
     # Adds double the value at index to the new list 
-    new_lst.append(lst[index] * 2)
+    new_lst.append(lst[index]*2)
     #  Adds the rest of the original list
-    new_lst = new_lst + lst[index + 1:]
+    new_lst = new_lst + lst[index+1:]
     return new_lst
 print(double_index([3, 8, -10, 12], 2))
+
+#-------------------------------------
+
+# Question:
+# Create a function called middle_element that has one parameter named lst.
+# If there are an odd number of elements in lst, the function should return the middle element. 
+# If there are an even number of elements, the function should return the average of the middle two elements.
+
+# Solution:
+def middle_element(lst):
+  if len(lst) % 2 == 0:
+    sum = lst[int(len(lst)/2)] + lst[int(len(lst)/2) - 1]
+    return sum / 2
+  else:
+    return lst[int(len(lst)/2)]
+print(middle_element([5, 2, -10, -4, 4, 5]))
