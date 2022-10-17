@@ -12,6 +12,8 @@ print(tenth_power(0))
 # 2 to the 10th power is 1024
 print(tenth_power(2))
 
+# Output = 1, 0, 1024
+
 #-----------------------------------------------------------
 
 # Question:
@@ -25,3 +27,5 @@ def square_root(num):
 print(square_root(16))
 # should print 10
 print(square_root(100))
+
+# Output = 4.0, 10.0
