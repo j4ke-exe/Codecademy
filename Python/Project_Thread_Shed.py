@@ -153,3 +153,12 @@ colors = ['red', 'yellow', 'green', 'white', 'black', 'blue', 'purple']
 
 for color in colors:
   print("Thread Shed sold {0} threads of {1} thread today.".format(color_count(color), color))
+
+# Output:
+# Thread Shed sold 96 threads of red thread today.
+# Thread Shed sold 136 threads of yellow thread today.
+# Thread Shed sold 120 threads of green thread today.
+# Thread Shed sold 112 threads of white thread today.
+# Thread Shed sold 104 threads of black thread today.
+# Thread Shed sold 88 threads of blue thread today.
+# Thread Shed sold 68 threads of purple thread today.
