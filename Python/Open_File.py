@@ -15,3 +15,13 @@ with open('how_many_lines.txt') as lines_doc:
 with open('just_the_first.txt') as first_line_doc:
   first_line = first_line_doc.readline()
 print(first_line)
+
+#-------------------------------------
+
+# Write to a file and read it
+with open('bad_bands.txt', 'w') as bad_bands_doc:
+  bad_bands_doc.write("Vanilla Ice")
+
+with open('bad_bands.txt') as bad_bands_doc:
+  file_read = bad_bands_doc.read()
+print(file_read)
