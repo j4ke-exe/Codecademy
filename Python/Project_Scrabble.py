@@ -31,7 +31,7 @@ player_to_words = {
   "wordNerd": ["EARTH", "EYES", "MACHINE"], 
   "Lexi Con": ["ERASER", "BELLY", "HUSKY"], 
   "Prof Reader": ["ZAP", "COMA", "PERIOD"]
-  }
+}
 
 player_to_points = {}
 
