@@ -47,3 +47,23 @@ import json
 
 with open('data.json', 'w') as data_json:
   json.dump(data_payload, data_json)
+  
+#----------------------------------------------
+
+import csv
+
+compromised_users = []
+
+with open('passwords.csv') as password:
+  contents = password.read()
+print(contents)
+
+
+with open('passwords.csv') as password_file:
+  password_csv = csv.DictReader(password_file)
+  
+  for password_row in password_csv:
+    #print(password_row['Username'])
+    compromised_users.append(password_row['Username'])
+
+print(compromised_users)
