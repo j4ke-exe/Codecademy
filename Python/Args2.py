@@ -24,10 +24,10 @@ def assign_and_print_order(table_number, *order_items):
     print(order)
 
 assign_table(
-2, 
-'Arwa', 
-True
-)
+  2, 
+  'Arwa', 
+  True
+  )
 
 assign_and_print_order(
   2, 
