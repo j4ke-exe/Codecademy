@@ -11,7 +11,6 @@ tables = {
   6: {},
   7: {},
 }
-print(tables)
 
 def assign_table(table_number, name, vip_status=False): 
   tables[table_number]['name'] = name
