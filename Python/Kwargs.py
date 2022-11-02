@@ -34,3 +34,19 @@ print('\n --- tables after update --- \n')
 assign_food_items(2, food='Seabass, Gnocchi, Pizza', drinks='Margarita, Water')
 
 print(tables)
+
+#------------------------------------------------------------------------------
+
+def single_prix_fixe_order(appetizer, *entrees, sides, **dessert_scoops):
+  print(appetizer)
+  print(entrees)
+  print(sides)
+  print(dessert_scoops)
+single_prix_fixe_order(
+  'Baby Beets', 
+  'Salmon', 
+  'Scallops', 
+  sides='Mashed Potatoes', 
+  ice_cream1='Vanilla', 
+  ice_cream2='Cookies and Cream'
+)
