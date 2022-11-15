@@ -8,7 +8,6 @@ class Pokemon:
         self.type = type
         self.is_knocked_out = False
 
-
     def __repr__(self):
         # Printing a pokemon will tell you its name, its type, its level and how much health it has remaining
         return "This level {level} {name} has {health} hit points remaining. They are a {type} type Pokemon".format(level = self.level, name = self.name, health=self.health, type = self.type)
