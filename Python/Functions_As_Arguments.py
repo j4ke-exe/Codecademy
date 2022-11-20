@@ -1,6 +1,9 @@
-def total_bill(func, value):
-  total = func(value)
-  return ("The total amount owed is $" + "{:.2f}".format(total))
+bills = [115, 120, 42]
  
-print(total_bill(add_tax, 100))
-print(total_bill(add_tip, 100))
+new_bills = []
+ 
+for i in range(len(bills)):
+  total = add_tax(bills[i])
+  new_bills.append("Total amount owed is $" + "{:.2f}".format(total))
+ 
+print(new_bills)
