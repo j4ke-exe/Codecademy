@@ -1,7 +1,6 @@
 def title_decorator(print_name_function):
   def wrapper(*args, **kwargs):
-    print("Group 1:")
-    print_name_function(*args, **kwargs)
+    print("Group 1: " + print_name_function(*args, **kwargs))
   return wrapper
 
 @title_decorator
