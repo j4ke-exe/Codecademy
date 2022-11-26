@@ -61,6 +61,6 @@ class SystemAlertTests(unittest.TestCase):
     self.assertRaises(alerts.PowerError, alerts.power_outage_detected, True)
     
   def test_water_levels_warning(self):
-  self.assertWarns(alerts.WaterLevelWarning, alerts.water_levels_check, 150)
+    self.assertWarns(alerts.WaterLevelWarning, alerts.water_levels_check, 150)
   
 unittest.main()
