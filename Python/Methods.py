@@ -29,3 +29,22 @@ for student_id in student_generator:
   if student_id > 100:
     student_generator.throw(ValueError, "Invalid student ID")
   print(student_id)
+
+#---------------------------------
+# Close Infinite Loop with Methods: close()
+
+def generator():
+  i = 0
+  while True:
+    try:
+      yield i
+    except GeneratorExit:
+      print("Infinite Loop Detected. Closing!")
+      break
+    i += 1
+ 
+my_generator = generator()
+for item in my_generator:
+  print(item)
+  if item == 1:
+    my_generator.close()
