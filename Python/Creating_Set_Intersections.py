@@ -17,7 +17,6 @@ tags_int = set(user_recent_songs['Retro Words']) & set(user_recent_songs['Lowkey
 
 # Method 2
 tags_int = set(user_recent_songs['Retro Words']).intersection(user_recent_songs['Lowkey Space'])
-print(tags_int)
 
 recommended_songs = {}
 for key, val in song_data.items():
