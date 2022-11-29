@@ -26,7 +26,7 @@ guestlist.send('Jane, 35')
 for guest in guestlist:
   print(guest)
 
-over_21 = (key for key, val in  guests.items() if int(val) > 21)
+over_21 = (key for key, val in guests.items() if int(val) > 21)
 for guest in over_21:
   print(guest)
 
