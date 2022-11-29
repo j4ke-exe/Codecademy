@@ -15,3 +15,22 @@ top_genres = ['rap', 'rock', 'pop']
 # Write your code below!
 frozen_top_genres = frozenset(top_genres)
 print(frozen_top_genres)
+
+#------------------------------
+# Adding to a Set
+
+song_data = {'Retro Words': ['pop', 'warm', 'happy', 'electric']}
+
+user_tag_1 = 'warm'
+user_tag_2 = 'exciting'
+user_tag_3 = 'electric'
+
+# Write your code below!
+tags = (user_tag_1, user_tag_2, user_tag_3)
+
+tag_set = set(song_data['Retro Words'])
+tag_set.update(tags)
+
+song_data = {'Retro Words': tag_set}
+
+print(song_data)
