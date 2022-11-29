@@ -30,7 +30,7 @@ over_21 = (key for key, val in guests.items() if int(val) > 21)
 for guest in over_21:
   print(guest)
 
-#Part 5
+# Part 5
 def chicken():
   food = 'Chicken'
   table = 1
@@ -58,7 +58,7 @@ def fish():
     yield 'table: {table}'
     yield f'seat: {seat}'
 
-#Part 6
+# Part 6
 def meal_assigner(guests, generator1, generator2, generator3):
   names = list(guests.keys())
   for i in range(5):
