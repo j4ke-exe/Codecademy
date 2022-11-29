@@ -39,7 +39,7 @@ def get_profits(input_map):
 last_year_standard_profit, last_year_holiday_profit = get_profits(profit_map)
 
 for item in new_months_data:
-  profit_map = profit_map.new_child(item)
+    profit_map = profit_map.new_child(item)
 
 current_year_standard_profit, current_year_holiday_profit = get_profits(profit_map)
 
