@@ -6,3 +6,12 @@ print(survey_genres)
 
 survey_abbreviated = {genre[0:3] for genre in survey_genres}
 print(survey_abbreviated)
+
+#------------------------------
+# Creating a Frozenset
+
+top_genres = ['rap', 'rock', 'pop']
+
+# Write your code below!
+frozen_top_genres = frozenset(top_genres)
+print(frozen_top_genres)
