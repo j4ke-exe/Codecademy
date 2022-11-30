@@ -53,9 +53,7 @@ class PoemFiles:
 
   # Create your __exit__ method here:
   def __exit__(self, exc_type, exc_value, traceback):
-    print(exc_type)
-    print(exc_value)
-    print(traceback)
+    print(exc_type, exc_value, traceback)
     return self.opened_poem_file.close()
 
 # First (Throws Error)
