@@ -37,13 +37,17 @@ class personalized:
     self.file.close()
 
 with personalized("John", "Michael") as card:
-   card.write("""
+   card.write(
+   """
    I am so proud of you! Being your friend for all these years has been nothing but a blessing. 
    I don’t say it often but I just wanted to let you know that you inspire me and I love you! All the best. Always.
-   """)
+   """
+   )
   
 with generic("happy_bday.txt","Josiah","Remy" ) as card, personalized("Josiah","Esther") as card2:
-   card2.write("""
+   card2.write(
+   """
    Happy Birthday!! I love you to the moon and back. Even though you’re a pain sometimes, you’re a pain I can't live without. 
    I am incredibly proud of you and grateful to have you as a sister. Cheers to 25!! You’re getting old!
-   """)
+   """
+   )
