@@ -1,5 +1,3 @@
-#### Solution Code
-
 import logging
 import random
 import sys
