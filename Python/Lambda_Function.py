@@ -4,12 +4,12 @@ def times3(a, b, function):
 add_then_times3 = times3(2, 4, lambda x, y: x + y) # 18
 sub_then_times3 = times3(2, 4, lambda x, y: x - y) # -6
 
-# --------------------------
-# Review of Lambda Functions
-# --------------------------
+# -----------------------------------------
+#        Review of Lambda Functions
+# -----------------------------------------
 # Area of a triangle: 0.5 * (base * height)
 # Area of a rectangle: base * height
-# Example code without using lambdas
+# Example code without using lambdas:
 def rect(b, h):
   return b * h
 
