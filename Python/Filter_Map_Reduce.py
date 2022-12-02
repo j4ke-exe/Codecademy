@@ -28,7 +28,20 @@ print(sum)
 # Output: 328
 
 # -----------------------------
+# Imperative Style
+# -----------------------------
+lst = []
+for i in nums:
+  if i % 3 == 0:
+    lst.append(i)
+ 
+for i in range(len(lst)):
+  lst[i] = lst[i] * 3
+ 
+tuple(lst)
+# -----------------------------
 # Mapping a Filtered Collection
+# Declarative Style
 # -----------------------------
 nums = (2, 12, 5, 8, 9, 3, 16, 7, 13, 19, 21, 1, 15, 4, 22, 20, 11)
 
