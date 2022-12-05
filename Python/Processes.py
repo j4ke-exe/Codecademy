@@ -20,3 +20,18 @@ for i in range(len(args)):
 # join each process
 for p in processes:
   p.join()
+
+# OR
+# list of arguments to use
+args = [arg1, arg2, arg3]
+                              
+# list comprehension to create processes list
+processes = [multiprocessing.Process(target=target_function, args=(args[i],)) for i in range(len(args))]
+                              
+# start each process
+for p in processes:
+  p.start()
+                              
+# join each process AFTER starting each process
+for p in processes:
+  p.join()
