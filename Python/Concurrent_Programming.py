@@ -58,7 +58,6 @@ def main_multiprocessing(list1, list2, list3):  # Main wrapper for multiprocessi
   elapsed = time.perf_counter() - s
   print("Multiprocessing Elapsed Time: " + str(elapsed) + " seconds")
 
-
 if __name__ == '__main__':  # Need to use this if-statement so multiprocessing doesn't cause an infinite loop
   l1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  # Three lists we are trying to calculate average on
   l2 = [2, 4, 6, 8, 10]
