@@ -72,4 +72,4 @@ average_bmi = total_bmi / len(bmis)
 average_bmi = "{:.2f}".format(average_bmi)
 
 # Print the average BMI
-print(f"Average BMI: {average_b
+print(f"Average BMI: {average_bmi}")
