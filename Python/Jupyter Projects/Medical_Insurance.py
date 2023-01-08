@@ -73,3 +73,28 @@ average_bmi = "{:.2f}".format(average_bmi)
 
 # Print the average BMI
 print(f"Average BMI: {average_bmi}")
+
+# -------------------------------------------- #
+#                   Results                    #
+# -------------------------------------------- #
+
+# MARINA ALLISON
+# MARKUS VALDEZ
+# CONNIE BALLARD
+# DARNELL WEBER
+# SYLVIE CHARLES
+# VINAY PADILLA
+# MEREDITH SANTIAGO
+# ANDRE MCCARTY
+# LORENA HODSON
+# ISAAC VU
+
+# Names: ['MARINA ALLISON', 'MARKUS VALDEZ', 'CONNIE BALLARD', 'DARNELL WEBER', 'SYLVIE CHARLES', 'VINAY PADILLA', 'MEREDITH SANTIAGO', 'ANDRE MCCARTY', 'LORENA HODSON', 'ISAAC VU']
+
+# Ages: ['27', '30', '43', '35', '22', '24', '51', '19', '65', '34']
+
+# BMIs: ['31.1', '22.4', '25.3', '20.6', '22.1', '26.9', '29.3', '22.7', '33.1', '24.8']
+
+# Insurance Costs: ['7010.0', '4050.0', '12060.0', '7500.0', '3022.0', '4620.0', '16330.0', '2900.0', '19370.0', '7045.0']
+
+# Average BMI: 26.38
