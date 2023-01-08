@@ -50,8 +50,7 @@ for record in medical_records_clean:
   bmis.append(record[2])
   insurance_costs.append(record[3])
 
-print("\n")
-print(f"Names: {names}\n")
+print(f"\nNames: {names}\n")
 print(f"Ages: {ages}\n")
 print(f"BMIs: {bmis}\n")
 print(f"Insurance Costs: {insurance_costs}\n")
